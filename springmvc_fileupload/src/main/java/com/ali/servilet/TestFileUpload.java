@@ -15,7 +15,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 import java.util.UUID;
-
+/**
+ * 看懂此代码要有springmvc基础 及注解了解
+ * maven项目--jar包以坐标形式导入
+ */
 @Controller
 @RequestMapping("user")
 public class TestFileUpload {
